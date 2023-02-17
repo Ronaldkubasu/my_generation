@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-
+    awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fontawesome.com/">
+    <style>
+        .contact_h{
+            color: blue;
+            text-align: center;
+            margin-top: 90px;
+        }
+
+        .sec_one{
+            padding-bottom: 0px;
+            margin-left: 50px;
+        }
+
+        .location{
+            padding-bottom: 15px;
+        }
+
+        .icons .fa{
+            color: red;
+            margin: 0 13px;
+            cursor: pointer;
+            float: right;
+            padding-top: 5px;
+            list-style-type: none;
+            height: 30px;
+            width: 30px;
+    }
+
+
+  
+  .icons i{
+    color: #000;
+    /* height: 30px;
+    width: 30px; */
+  }
+
+  
+
+
+  .contact_section{
+    display: flex;
+    /* margin-left: 5opx; */
+  }
+
+  .sec_one{
+    padding: 0px 120px;
+  }
+
+  .icons img{
+    height: 20px;
+    width: 20px;
+    padding: 0px 2px;
+    cursor: pointer;
+  }
+
+  .btn{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border: 1px solid red;
+    padding: 10px 30px;
+    color: violet;
+    text-decoration: none;
+    transition: 0.6s ease;
+    border-radius: 50px;
+    font-size: 30px;
+    font-family: Century Gothic;
+    font-weight: bold;
+}
+
+.btn:hover{
+    color: seagreen;
+    background-color: darkkhaki;
+}
+
+
+#phone img{
+    height: 50px;
+    width: 50px;
+}
+
+#phone{
+    display: flex;
+}
+ 
+.inputs{
+ display: flex;
+ justify-content: space-between;
+}
+
+
+.inputs input{
+    display: inline-block;
+    width: 600px;
+     /* margin: 20px; */
+    height: 30px;
+    /* padding-left: 70px; */
+}
+
+form{
+    width: 500px;
+    padding-left: 50px;
+
+}
+
+textarea{
+    width: 500px;
+    height: 200px;
+    margin-top: 30px;
+}
+
+    </style>
+</head>
+<body>
+    <div class="contact_h">
+        <h1>Get in touch</h1>
+    </div>
+    <div class="contact_section">
+        <div class="sec_one">
+
+        <div class="addres">
+            <h2>Address</h2>
+        </div>
+
+        <div class="location">
+            <p>4th Floor, Plot No.22,</p>
+            <p>145 Murphy Canyon Rd.</p>
+            <p>San Diego CA 2028</p>
+        </div>
+
+        <div class="mail">
+            <div id="phone">
+            <img src="https://i.pinimg.com/originals/84/4e/8c/844e8cd4ab26c82286238471f0e5a901.png" alt="">
+            <p>+254714331527</p>
+        </div>
+
+        <div id="phone">
+            <img src="https://cdn.tmobile.com/content/dam/t-mobile/en-p/cell-phones/apple/Apple-iPhone-12/Black/Apple-iPhone-12-Black-thumbnail.png" alt="">
+            <p>+254111826883</p>
+        </div>
+        <div id="phone">
+            <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/23/ee/9d/23ee9d16-3669-3687-b87a-a5ee98e457c4/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/1200x600wa.png" alt="">
+            <p>erickkhisa@gmail.com</p>
+        </div>
+        </div>
+
+        <div class="follow">
+            <h2>Follow Me</h2>
+
+            <div class="icons">
+                <a href="https://web.facebook.com/emgtechcompany"> <img src="https://www.facebook.com/images/fb_icon_325x325.png" alt=""></a>
+                <a href="https://www.instagram.com/eryque_micheal/"><img src="https://upload.wikimedia.org/wikipedia/commons/9/95/Instagram_logo_2022.svg" alt=""></a>
+                <a href="link address"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4n_urpJ9XpwOTdzBVbGvactwHrPagYQrTJPYjxfxLGkSyu7nJZVqRVGAeohnPgKMrnKE&usqp=CAU" alt=""></a>
+                <a href="https://github.com/eryquemicheal"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt=""></a>
+                <a href="https://wa.link/4mfrpz"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/640px-WhatsApp.svg.png" alt=""></a>
+                </div>
+        </div>
+
+        </div>
+
+        <div class="sec_two">
+           <div class="note">
+            <h1>SEND US A NOTE</h1>
+           </div>
+            <form action="get" >
+                <div class="inputs">
+                    <input type="text" id="fname" name="fname" placeholder="Name">                    
+                    <input class="email"  type="text"   placeholder="email" maxlength="300" >
+                </div>
+                        <textarea type="text" id="pin" name="pin" aria-valuemin="Tell us about your needs..." > </textarea><br><br>
+                <input type="submit" value="Send Message">
+            </form>
+
+    
+            
+
+        </div>
+
+    </div>
+
+</body>
+</html>
