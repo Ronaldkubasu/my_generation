@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+    box-sizing: border-box;
+    background-attachment: fixed;
+}
+
+/* .list{
+    align-items: center;
+    list-style-type: none;
+    display: flex;
+    margin-top: 0px;
+}
+
+.nav{
+    padding: 0px 30%; 
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: inline-block;
+}
+
+.nav_bar{
+    margin-top: 0px;
+}
+
+.list li{
+    padding: 0px 20px ;
+    color: blue;
+    font-weight: bold;
+    margin-top: 0px;
+}
+
+.pic img{
+    text-align: right;
+    width: 100px;
+    height: 100px;
+} */
+header{
+    /* background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../assets/roney.jpeg); */
+    height: 100vh;
+    background-size: cover ;
+    background-position: center;
+}
+
+
+
+ul li.active a{
+    background-color: palevioletred;
+    color: wheat;
+    border-radius: 50px;
+}
+
+ul{
+    /* float: right; */
+    text-align: center;
+    padding-top: 30px;
+    list-style-type: none;
+    margin-top: 25px;
+    /* padding: initial; */
+}
+
+
+ul li{
+    display: inline-block; 
+}
+
+
+ul li a{
+    font-weight: bold;
+    text-decoration: solid;
+    color: tomato;
+    padding: 5px 20px;
+    /* border: 1px solid wheat; */
+    transition: unset;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+
+
+ul li a:hover{
+    background-color: blue;
+    color: wheat;
+    transition: 1.0s ease;
+    border-radius: 50px;
+}
+
+.logo2 img{
+    float: left;
+    width: 150px;
+    height: auto;
+}
+
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.title{
+    color: violet;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.title h1{
+    color: darkmagenta;
+    font-size: 40px;
+    
+}
+
+#title2{
+    font-style: italic;
+    font-size: 55px;
+    color: blue;
+}
+
+.btn{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border: 1px solid red;
+    padding: 10px 30px;
+    color: violet;
+    text-decoration: none;
+    transition: 0.6s ease;
+    border-radius: 50px;
+    font-size: 30px;
+    font-family: Century Gothic;
+    font-weight: bold;
+}
+
+.btn:hover{
+    color: seagreen;
+    background-color: darkkhaki;
+}
+
+.icons .fa{
+    color: red;
+    margin: 0 13px;
+    cursor: pointer;
+    float: right;
+    padding-top: 5px;
+    list-style-type: none;
+    height: 30px;
+    width: 30px;
+    }
+
+  
+  .icons i{
+    color: #000;
+    /* height: 30px;
+    width: 30px; */
+  }
+
+
+  #home_section{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s;
+}
+
+.button_container{
+    width: 50px;
+    height: 50px;
+    background-color: grey;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+
+#icon_shape{
+    font-size: 25px;
+    display: none;
+}
+
+#home_section.dark{
+    background-color: black;
+}
+
+#home_section.dark #icon_shape{
+    display: block;
+}
+
+#home_section.dark #moon{
+    display: none;
+}
+
+
+.header_About{
+    text-align: center;
+    color: blue;
+    margin-top: 60px;
+}
+
+#About_p{
+    width: 50%;
+    font-family: Century Gothic;
+    margin-left: 20px;
+    padding: 10px 50px;
+}
+
+#About_h{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+    color: blue;
+    padding: 10px 50px;
+}
+
+.sec{
+    display: flex;
+}
+
+#par2{
+    margin-bottom: 25px;
+}
+
+.About_paragraph2{
+    margin-right: 20em;
+    margin-top: 28px;
+    font-family: Century Gothic;
+    font-size: medium;
+}
+
+.bt{
+    position: absolute;
+    border: 1px solid red;
+    padding: 10px 30px;
+    color: violet;
+    text-decoration: none;
+    transition: 0.6s ease;
+    border-radius: 50px;
+    font-size: 30px;
+    font-family: Century Gothic;
+    font-weight: bold;
+    background-color: blue;
+}
+
+.bt:hover{
+    color: seagreen;
+    background-color: darkkhaki;
+}
+
+.sec3{
+    display: flex;
+    margin: 30px;
+    padding: 0px 100px;
+    
+}
+
+#h_sec3{
+    padding: 0px 50px;
+    margin-bottom: 15px;
+    font-size: 50px;
+}
+
+#sec3_p{
+    padding: 0px 50px; 
+    font-family: Century Gothic;
+}
+
+.btf{
+    background: white;
+    color: green;
+    margin-top: 10px;
+    border: 1px solid black;
+    padding: 10px 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 20px;
+    float: right;
+}
+
+.btf:hover{
+    background-color: lightslategray;
+    color: wheat;
+}
